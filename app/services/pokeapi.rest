@@ -1,0 +1,5 @@
+###
+GET http://pokeapi.co/api/v2/pokemon/pikachu
+
+###
+GET http://pokeapi.co/api/v2/pokemon/?limit=2000
