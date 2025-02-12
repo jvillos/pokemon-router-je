@@ -23,7 +23,7 @@ function Search() {
   const [isLoading, setIsLoading] = useState(true);
 
   // Get Pokémon data from the loader
-  const loaderData = useLoaderData() as { pokemons: PokemonBasic[] };
+  const loaderData : { pokemons: PokemonBasic[] } = useLoaderData();
 
   // State for search term
   const [search, setSearch] = useState<string>("");
